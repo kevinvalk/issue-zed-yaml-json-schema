@@ -1,0 +1,2 @@
+# yaml-language-server: $schema=.config/schema.json
+"asd" # Should throw error as only numbers are allowed

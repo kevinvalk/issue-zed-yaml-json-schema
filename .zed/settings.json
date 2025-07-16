@@ -1,0 +1,30 @@
+{
+  "lsp": {
+    "yaml-language-server": {
+      "settings": {
+        "yaml": {
+          "schemas": {
+            "./.config/schema.json": "example-bug.yaml",
+            "./schema-at-root.json": "example-works-root.yaml"
+          }
+        }
+      }
+    },
+    "json-language-server": {
+      "settings": {
+        "json": {
+          "schemas": [
+            {
+              "fileMatch": ["example-*.json"],
+              "url": "./.config/schema.json"
+            },
+            {
+              "fileMatch": ["example-*-root.json"],
+              "url": "./schema-at-root.json"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

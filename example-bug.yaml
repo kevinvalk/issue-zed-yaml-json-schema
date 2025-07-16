@@ -1,0 +1,2 @@
+# NOTE: This works as intended in VSCode!!
+"asd" # Should throw error as only numbers are allowed BUT instead it throws the error `Unable to load schema from '/<full path>/zed-yaml-schema/config,schema.json': No content. (YAML 768)`
